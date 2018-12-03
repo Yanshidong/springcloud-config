@@ -3,6 +3,9 @@ zuul:
     api-a:
       path: /demo/**
       serviceId: demo-client
+    api-b:
+      path: /ribbon/**
+      serviceId: balance-ribbon
 #    api-b:
 #      path: /api-b/**
 #      serviceId: service-feign
